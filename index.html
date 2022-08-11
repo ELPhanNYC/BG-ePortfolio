@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <title>Bellows Garden Inc</title>
+</head>
+<body>
+    <div class="header">
+        <img src = "images/Bellows Logo.png" class ="center" style = "height: 225px;">
+    </div>
+    <div class="nav">
+        <ul class="nav center">
+            <li class = "nav"><a href="index.html">Home &ThinSpace;&ThinSpace;&ThinSpace;</a></li>
+            <li class = "nav"><a href="index.html">Hedges&ThinSpace;&ThinSpace;&ThinSpace;</a></li>
+            <li class = "nav"><a href="index.html">Shrubbery&ThinSpace;&ThinSpace;&ThinSpace;</a></li>
+            <li class = "nav"><a href="index.html">Gardens&ThinSpace;&ThinSpace;&ThinSpace;</a></li>
+            <li class = "nav"><a href="arrangements.html">Arrangements&ThinSpace;&ThinSpace;&ThinSpace;</a></li>
+            <li class = "nav"><a href="index.html">Contact</a></li>
+        </ul>
+
+    </div>
+    <div class="content-header">
+        <h2>Our Company</h2>
+    </div>
+    <div class="body">
+        <div class = "slideshow">
+            <div class="slide">
+                <img class  ="slide-img center" src="images/IMG_3613.JPG">
+            </div>
+            <div class="slide">
+                <img class  ="slide-img center" src="images/IMG_4204.png">
+            </div>
+            <div class="slide">
+                <img class  ="slide-img center" src="images/IMG_0937.JPG">
+            </div>
+        </div>
+        <script>
+            let index = 0;
+            playSlides();
+            function playSlides(){
+                let slides = document.getElementsByClassName("slide")
+                index++;
+                for(let i = 0; i < slides.length; i++){
+                    slides[i].style.display = "none";
+                }
+                if(index == slides.length){
+                    index = 0
+                    slides[index].style.display = "block";
+                }
+                else{
+                    slides[index].style.display = "block";
+                }
+                setTimeout(playSlides,4000)
+            }
+        </script>
+        <br>
+        <p>Bellows Garden Inc is a Landscape/Garden design and maintance company located in Southampton, NY.</p>
+    </div>
+</body>
+</html>
