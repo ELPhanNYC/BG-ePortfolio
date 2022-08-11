@@ -29,6 +29,10 @@ h2{
     padding-top: 75px;
 }
 
+p{
+    font-size: 18px;
+}
+
 .body{
     margin-top: 0.25in;
     margin-bottom: 0.25in;
