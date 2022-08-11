@@ -34,6 +34,7 @@ h2{
     margin-bottom: 0.25in;
     margin-left:1in;
     margin-right:1in;
+    min-height: 480px;
 }
 
 .content-header{
