@@ -48,10 +48,6 @@ h2{
     animation: fade 4s;
 }
 
-.slides{
-    display: none;
-}
-
 .center{
     display:block;
     margin-left:auto;
@@ -140,4 +136,19 @@ a:visited{
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.496);
+  }
+  @media (max-width: 767.98px) {
+    .slide-img{
+        height: 200px;
+        border: 5px;
+        border-style: inset;
+        border-color: #095c29;
+    }
+    
+    .slide-img2{
+        height: 200px;
+        border: 5px;
+        border-style: inset;
+        border-color: #095c29;
+    }
   }
