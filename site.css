@@ -30,7 +30,10 @@ h2{
 }
 
 .body{
-    margin:1in;
+    margin-top: 0.25in;
+    margin-bottom: 0.25in;
+    margin-left:1in;
+    margin-right:1in;
 }
 
 .content-header{
@@ -40,6 +43,7 @@ h2{
     background-size: 100%;
     opacity: 0.7;
 }
+
 .slide{
     animation: fade 4s;
 }
