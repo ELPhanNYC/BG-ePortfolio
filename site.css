@@ -60,14 +60,16 @@ p{
 }
 
 .slide-img{
-    height: 500px;
+    max-width: 700px;
+    max-height: 700px;
     border: 5px;
     border-style: inset;
     border-color: #095c29;
 }
 
 .slide-img2{
-    height: 500px;
+    max-width: 700px;
+    max-height: 700px;
     border: 5px;
     border-style: inset;
     border-color: #095c29;
@@ -143,15 +145,24 @@ a:visited{
     background-color: rgba(0, 0, 0, 0.496);
   }
   @media (max-width: 767.98px) {
+    .body{
+        margin-top: 0.25in;
+        margin-bottom: 0.25in;
+        margin-left:.10in;
+        margin-right:.10in;
+        min-height: 480px;
+    }
     .slide-img{
-        height: 200px;
+        max-height: 200px;
+        max-width: 300px;
         border: 5px;
         border-style: inset;
         border-color: #095c29;
     }
     
     .slide-img2{
-        height: 200px;
+        max-height: 200px;
+        max-width: 300px;
         border: 5px;
         border-style: inset;
         border-color: #095c29;
