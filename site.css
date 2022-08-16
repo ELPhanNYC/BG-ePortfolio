@@ -60,16 +60,16 @@ p{
 }
 
 .slide-img{
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 800px;
+    max-height: 450px;
     border: 5px;
     border-style: inset;
     border-color: #095c29;
 }
 
 .slide-img2{
-    max-width: 700px;
-    max-height: 700px;
+    max-width: 800px;
+    max-height: 450px;
     border: 5px;
     border-style: inset;
     border-color: #095c29;
@@ -153,7 +153,7 @@ a:visited{
         min-height: 480px;
     }
     .slide-img{
-        max-height: 200px;
+        max-height: 150px;
         max-width: 300px;
         border: 5px;
         border-style: inset;
@@ -161,7 +161,7 @@ a:visited{
     }
     
     .slide-img2{
-        max-height: 200px;
+        max-height: 150px;
         max-width: 300px;
         border: 5px;
         border-style: inset;
