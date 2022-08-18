@@ -123,8 +123,10 @@ a:link{
 }
 a:hover{
     color: #55635a;
-    background-color:#55635a ;
-    padding: 4px;
+}
+a.nav:hover{
+    background-color: #55635a;
+    color: #ffffff;
 }
 a:visited{
     color: #053818;
@@ -160,7 +162,42 @@ a:visited{
   .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.496);
   }
-  @media (max-width: 767.98px) {
+  @media (max-width: 1200px) {
+    .content-header{
+        height: 250px;
+        /*Change background photo to a garden*/
+        background-image: url("images/Screen\ Shot\ 2022-08-18\ at\ 1.22.53\ PM.png");
+        /*background-image: url("images/20190628_082351.jpg");*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 0.7;
+        padding-top: 2px;
+    }
+    .body{
+        margin-top: 0.25in;
+        margin-bottom: 0.25in;
+        margin-left:.10in;
+        margin-right:.10in;
+        min-height: 480px;
+    }
+    .slide-img{
+        max-height: 350px;
+        max-width: 650px;
+        border: 5px;
+        border-style: inset;
+        border-color: #095c29;
+    }
+    
+    .slide-img2{
+        max-height: 400px;
+        max-width: 550px;
+        border: 5px;
+        border-style: inset;
+        border-color: #095c29;
+    }
+  }
+  @media (max-width: 750px) {
     .content-header{
         height: 250px;
         /*Change background photo to a garden*/
