@@ -50,10 +50,12 @@ p{
 
 .content-header{
     height: 250px;
-    background-image: url("images/IMG_3623.jpg");
-    /* Possible Secondary Background, a little too revealing though: background-image: url("images/20190612_103839.jpg");*/
+    /*Change background photo to a garden*/
+    background-image: url("images/Screen\ Shot\ 2022-08-18\ at\ 1.22.53\ PM.png");
+    /*background-image: url("images/20190628_082351.jpg");*/
     background-position: center;
     background-size: 100%;
+    background-position-y: -125px;
     opacity: 0.7;
     padding-top: 2px;
 }
@@ -98,7 +100,9 @@ p{
         opacity: 0%;
     }
 }
-
+div.nav{
+    padding-bottom: 10px;
+}
 ul.nav{
     list-style: none;
     text-align: center;
@@ -108,6 +112,7 @@ ul.nav{
 }
 li.nav{
     display: inline-block;
+    padding-right: 10px;
 }
 a{
     text-decoration: none;
@@ -118,6 +123,8 @@ a:link{
 }
 a:hover{
     color: #55635a;
+    background-color:#55635a ;
+    padding: 4px;
 }
 a:visited{
     color: #053818;
@@ -139,14 +146,14 @@ a:visited{
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 3px 0 0 3px;
+    border-radius: 3px 3px 3px 3px;
     user-select: none;
   }
   
   /* Position the "next button" to the right */
   .next {
     right: 0;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px 3px 3px 3px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
@@ -154,6 +161,17 @@ a:visited{
     background-color: rgba(0, 0, 0, 0.496);
   }
   @media (max-width: 767.98px) {
+    .content-header{
+        height: 250px;
+        /*Change background photo to a garden*/
+        background-image: url("images/Screen\ Shot\ 2022-08-18\ at\ 1.22.53\ PM.png");
+        /*background-image: url("images/20190628_082351.jpg");*/
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 0.7;
+        padding-top: 2px;
+    }
     .body{
         margin-top: 0.25in;
         margin-bottom: 0.25in;
