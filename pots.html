@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="site.css">
-    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zen+Antique">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Raleway:wght@400;500;600&display=swap">
     <link rel="icon" href = "images/bellows-icon.png">
     <script src="script.js"></script>
     <title>Bellows Gardens, Inc.</title>
 </head>
 <body>
     <div class="header">
-        <img src = "images/Bellows Logo.png" class = "center" style = "height: 225px;">
+        <img src = "images/Bellows Logo.png" class = "center">
     </div>
     <div class="nav">
         <ul class="nav center">
@@ -56,12 +56,16 @@
                 <img src="images/20190618_152001.jpg" class="center slide-img2">
             </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlides(-1)" role="button" aria-label="Previous photo">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)" role="button" aria-label="Next photo">&#10095;</a>
         </div>
         <br>
-        <p style="text-align: center;">Press the arrows to see a picture!</p>
+        <p style="text-align: center;">Use the arrows to browse photos</p>
         <p>The planters we design help give your garden or even your home interior a nice natural accent. We do so by carefully arranging these plants to look clean and elegant while maintaining a natural look. Additionally, we look to care for these planters by deadheading, watering, and replacing these plants when need be.</p>
+    </div>
+    <div class="footer">
+        <span class="footer-name">Bellows Gardens, Inc.</span>
+        <span>Landscape &amp; Garden Design and Maintenance &middot; Southampton, NY</span>
     </div>
 </body>
 </html>

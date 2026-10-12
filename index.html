@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="site.css">
-    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zen+Antique">-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Raleway:wght@400;500;600&display=swap">
     <link rel="icon" href = "images/bellows-icon.png">
     <title>Bellows Gardens, Inc.</title>
 </head>
 <body>
     <div class="header">
-        <img src = "images/Bellows Logo.png" class ="center" style = "height: 225px;">
+        <img src = "images/Bellows Logo.png" class ="center">
     </div>
     <div class="nav">
         <ul class="nav center">
@@ -47,7 +47,7 @@
             </div>
         </div>
         <script>
-            let index = 0;
+            let index = -1;
             playSlides();
             function playSlides(){
                 let slides = document.getElementsByClassName("slide")
@@ -68,5 +68,9 @@
         <p>Our family owned business has been around for over a hundred years! Starting in 1922 as Bellows Brothers Nursery, the business was founded in Southampton where the original barn still stands today.</p>
     </div>
     
+    <div class="footer">
+        <span class="footer-name">Bellows Gardens, Inc.</span>
+        <span>Landscape &amp; Garden Design and Maintenance &middot; Southampton, NY</span>
+    </div>
 </body>
 </html>
